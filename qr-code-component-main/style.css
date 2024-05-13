@@ -1,0 +1,54 @@
+*{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+    background-color: white;
+    /*Creating Shadows for Card Effect*/
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   transition: 0.3s;
+   border-radius: 15px; /*rounded corners*/
+   width: 300px;
+   /*Centering the card*/
+   margin: 50px auto;
+}
+
+.card:hover{
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 2);
+}
+/*Add rounded corners to both sides of the top of the card*/
+.cardImg{
+    border-radius: 10px 10px 10px 10px;
+    height: 38vh;
+    width: 90%;
+    /*Centering the img*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-top: 5px;
+}
+
+.cardContainer {
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    padding: 2px 16px;
+    text-align: center;
+    color:  hsl(218, 44%, 22%);
+}
+
+.cardContainer p {
+    background-color: white;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    font-weight: 300;
+}
+
+.cardContainer h2 {
+    background-color: white;
+    font-weight: 700;
+}
